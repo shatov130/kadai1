@@ -64,3 +64,25 @@ footer {
 
   background-color: #AAAAAA;
 }
+
+@media screen and (max-width:768px) {
+  hedder {
+    width:100%;
+  }
+  main {
+    width: 100%;
+    display: block;
+  }
+  .content-item {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+
+  }
+  .content-item:last-child {
+    margin-right: auto;
+    margin-bottom: 0px;
+  }
+
+}
